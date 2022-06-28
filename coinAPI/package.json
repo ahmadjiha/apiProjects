@@ -1,0 +1,16 @@
+{
+  "name": "coinapi",
+  "version": "0.0.1",
+  "description": "",
+  "main": "getTotalValue.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ahmad Jiha, Lawrence Tam",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "jest": "^28.1.1"
+  }
+}
