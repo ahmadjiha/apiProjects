@@ -1,0 +1,4 @@
+GET http://localhost:5001/api/test
+
+###
+GET https://d3b2-157-131-105-138.ngrok.io/api/test
