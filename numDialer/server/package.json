@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "## Requirements 1. Dial three numbers simultaneously at all times (unless less than three numbers left).   - When a phone call finishes, dial the next number in the list (in order). 2. Dial by the order they are given. 3. This logic must be in the back-end.   - Client cannot initiate more than 3 calls at a time.   - Client cannot dial numbers outside of list.   - Client cannot dial numbers out of order. 4. No database. Maintain state of calls in memory. 5. One user and the user only dials down the list a single time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Ahmad Jiha & Lawrence Tam",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "better-sse": "^0.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
